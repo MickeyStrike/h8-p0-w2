@@ -1,0 +1,72 @@
+// TUGAS 1
+//algoritma
+simpan ""
+//pseudocode
+SET "MASSA" with a value 600
+SET "ACCELERATION" with a value 2
+CALCULATE "MASSA" * "ACCELERATION" STORE to F
+SHOW the F result
+
+//TUGAS 2
+// algoritma
+Mulai
+    menentukan year
+    jika Tahun habis dibagi 4 dan tidak habis dibagi 100 maka Tahun Kabisat atau
+    jika Tahun habis dibagi 4 dan habis dibagi 100 dan habis dibagi 400 maka Tahun Kabisat
+    jika salah 1 statement benar maka tampilkan "Tahun Kabisat"
+Selesai
+
+// pseudocode
+    SET "year" to any year
+    IF ("year" % 4 == 0 && "year" % 100 != 0) || ("year" % 4 == 0 && "year" % 100 == 0 && "year" % 400 == 0) DO
+    DISPLAY "Tahun Kabisat"
+    END IF
+
+
+//TUGAS 3
+// algoritma
+Mulai
+    simpan "SHIRT" dengan angka 0
+    selagi "SHIRT" kurang dari 20 lakukan tahap selanjutnya, selain itu ke tahap stop WHILE.
+    tampilkan "SHIRT ke-" + (SHIRT+1)
+    tambah SHIRT dengan 1
+    jika SHIRT sama dengan 20 lakukan
+    tampilkan "Turn On the Machine"
+    stop IF
+    stop WHILE
+Selesai
+
+// pseudocode
+    SET "SHIRT" with a value 0
+    WHILE(SHIRT < 20) DO
+    DISPLAY "SHIRT : " + (SHIRT+1)
+    INCREMENT
+    IF("SHIRT" == 20) DO
+    DISPLAY ("Turn On the Machine")
+    END IF
+    END WHILE
+
+//TUGAS 4
+// algoritma
+Mulai
+    simpan "STUDENT" dengan angka 0
+    selagi "STUDENT" kurang dari 40 lakukan tahap selanjutnya, selain itu ke tahap stop WHILE
+    jika "STUDENT" sama dengan KUKU PANJANG lakukan
+    tampilkan "DIHUKUM GURU"
+    selain itu
+    tampilkan "DIPUJI GURU"
+    stop IF
+    tambah "STUDENT" dengan 1
+    stop WHILE
+Selesai
+
+// pseudocode
+    SET STUDENT with a value 0
+    WHILE(STUDENT<40) DO
+    IF(STUDENT == KUKU PANJANG) DO
+    DISPLAY ("DIHUKUM GURU")
+    ELSE
+    DISPLAY ("DIPUJI GURU")
+    END IF
+    INCREMENT
+    END WHILE
