@@ -1,12 +1,14 @@
-var tanggal=31;
+var tanggal=21;
 var bulan=1;
-var tahun=1900;
+var tahun=1945;
 
 if(tanggal<=31){
     switch(tanggal){
         case tanggal : console.log(tanggal);
         break;
     }
+}else{
+    console.log(tanggal='tanggal yang anda masukkan salah, masukkan kembali tanggal(1-31)');
 }
 
 switch(bulan){
@@ -34,7 +36,7 @@ switch(bulan){
         break;
     case 12 : console.log(bulan='Desember');
         break;
-    default : console.log('Bulan yang anda masukkan tidak ada');
+    default : console.log(bulan='Bulan yang anda masukkan tidak ada, masukkan kembali(1-12)');
         break;
 }
 
@@ -43,6 +45,9 @@ if(tahun>=1900 && tahun<=2200){
         case tahun : console.log(tahun);
         break;
     }
+}
+else{
+    console.log(tahun='tahun yang anda masukkan harus (1900-2200)')
 }
 console.clear();
 console.log(`${tanggal} ${bulan} ${tahun}`);
