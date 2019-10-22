@@ -1,6 +1,11 @@
 // TUGAS 1
 //algoritma
-simpan ""
+Mulai
+    simpan "MASSA" dengan angka 600
+    simpan "ACCELERATION" dengan angka 2
+    hitung "MASSA" * "ACCELERATION" simpan di F
+    tampilkan hasil F
+Selesai
 //pseudocode
 SET "MASSA" with a value 600
 SET "ACCELERATION" with a value 2
@@ -15,13 +20,11 @@ Mulai
     jika Tahun habis dibagi 4 dan habis dibagi 100 dan habis dibagi 400 maka Tahun Kabisat
     jika salah 1 statement benar maka tampilkan "Tahun Kabisat"
 Selesai
-
 // pseudocode
     SET "year" to any year
     IF ("year" % 4 == 0 && "year" % 100 != 0) || ("year" % 4 == 0 && "year" % 100 == 0 && "year" % 400 == 0) DO
     DISPLAY "Tahun Kabisat"
     END IF
-
 
 //TUGAS 3
 // algoritma
@@ -35,7 +38,6 @@ Mulai
     stop IF
     stop WHILE
 Selesai
-
 // pseudocode
     SET "SHIRT" with a value 0
     WHILE(SHIRT < 20) DO
@@ -59,7 +61,6 @@ Mulai
     tambah "STUDENT" dengan 1
     stop WHILE
 Selesai
-
 // pseudocode
     SET STUDENT with a value 0
     WHILE(STUDENT<40) DO
