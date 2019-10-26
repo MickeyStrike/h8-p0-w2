@@ -1,14 +1,14 @@
-var nama='Irfan';
-var peran='';
+var nama='Dono';
+var peran='Tabib';
 
 if (nama===''&&peran==='') {
     console.log("Nama dan Peran harus diisi !");
-} else if(nama==='Irfan'&&peran==='') {
+} else if(nama===''+nama&&peran==='') {
     console.log("Halo " + nama + " Peran anda harus diisi");
-} else if(nama==='Agus'||peran==='Ksatria'){
+} else if(nama===''+nama||peran==='Ksatria'){
     console.log("Selamat datang di Dunia Proxytia, "+nama+"\nHalo "+peran+" "+nama+", kamu dapat menyerang dengan senjatamu!");
-} else if(nama==='Muti'||peran==='Tabib'){
+} else if(nama===''+nama||peran==='Tabib'){
     console.log("Selamat datang di Dunia Proxytia, "+nama+"\nHalo "+peran+" "+nama+", kamu akan membantu temanmu yang terluka!");
-} else if(nama==='Michael'||peran==='Penyihir'){
+} else if(nama===''+nama||peran==='Penyihir'){
     console.log("Selamat datang di Dunia Proxytia, "+nama+"\nHalo "+peran+" "+nama+", ciptakan keajaiban yang membantu kemenanganmu!");
 }

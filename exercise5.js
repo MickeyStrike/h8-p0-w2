@@ -1,42 +1,42 @@
-// //Tugas 1
-// var word = 'JavaScript';
-// var second = 'is';
-// var third = 'awesome';
-// var fourth = 'and';
-// var fifth = 'I';
-// var sixth = 'Love';
-// var seventh = 'it!';
+//Tugas 1
+var word = 'JavaScript';
+var second = 'is';
+var third = 'awesome';
+var fourth = 'and';
+var fifth = 'I';
+var sixth = 'Love';
+var seventh = 'it!';
 
-// console.log(word + " " + second + " " + third + " " + fourth + " " + fifth + " " + sixth + " " + seventh);
+console.log(word + " " + second + " " + third + " " + fourth + " " + fifth + " " + sixth + " " + seventh);
 
 
 // //Tugas 2
-// var word = 'wow JavaScript is so cool';
-// var exampleFirstWord = word[0] + word[1] + word[2];
-// var secondWord = word[4] + word[5] + word[6] + word[7] + word[8] + word[9] + word[10] + word[11] + word[12] + word[13] + word[14];
-// var thirdWord = word[15] + word[16];
-// var fourthWord = word[18] + word[19];
-// var fifthWord = word[21] + word[22] + word[23] + word[24];
+var word2 = 'wow JavaScript is so cool';
+var exampleFirstWord2 = word2[0] + word2[1] + word2[2];
+var secondWord2 = word2[4] + word2[5] + word2[6] + word2[7] + word2[8] + word2[9] + word2[10] + word2[11] + word2[12] + word2[13] + word2[14];
+var thirdWord2 = word2[15] + word2[16];
+var fourthWord2 = word2[18] + word2[19];
+var fifthWord2 = word2[21] + word2[22] + word2[23] + word2[24];
 
-// console.log('First Word : ' + exampleFirstWord);
-// console.log('Second Word : ' + secondWord);
-// console.log('Third Word : ' + thirdWord);
-// console.log('Fourth Word : '+ fourthWord);
-// console.log('Fifth Word : ' + fifthWord);
+console.log('First Word : ' + exampleFirstWord2);
+console.log('Second Word : ' + secondWord2);
+console.log('Third Word : ' + thirdWord2);
+console.log('Fourth Word : '+ fourthWord2);
+console.log('Fifth Word : ' + fifthWord2);
 
 // // Tugas 3
-// var word3 = 'wow Javascript is so cool';
-// var exampleFirstWord3 = word3.substring(0, 3);
-// var secondWord3 = word3.substring(4, 14);
-// var thirdWord3 = word3.substring(15, 17);
-// var fourthWord3 = word3.substring(18, 20);
-// var fifthWord3 = word3.substring(21, 25);
+var word3 = 'wow Javascript is so cool';
+var exampleFirstWord3 = word3.substring(0, 3);
+var secondWord3 = word3.substring(4, 14);
+var thirdWord3 = word3.substring(15, 17);
+var fourthWord3 = word3.substring(18, 20);
+var fifthWord3 = word3.substring(21, 25);
 
-// console.log('First Word : ' + exampleFirstWord3);
-// console.log('Second Word : ' + secondWord3);
-// console.log('Third Word : ' + thirdWord3);
-// console.log('Fourth Word : ' + fourthWord3);
-// console.log('Fifth Word : ' + fifthWord3);
+console.log('First Word : ' + exampleFirstWord3);
+console.log('Second Word : ' + secondWord3);
+console.log('Third Word : ' + thirdWord3);
+console.log('Fourth Word : ' + fourthWord3);
+console.log('Fifth Word : ' + fifthWord3);
 
 // Tugas 4
 var word4 = 'wow Javascript is so cool';
